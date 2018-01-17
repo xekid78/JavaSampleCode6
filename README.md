@@ -1,8 +1,7 @@
 # Java_SampleCode6
 while文
 
-#### 処理
-<dl>
+<dl>処理
   <dt>ケース１</dt>
   <dd>１～５の数字を昇順に「**だよ。」と出力する。</dd>
   <dt>ケース２</dt>
