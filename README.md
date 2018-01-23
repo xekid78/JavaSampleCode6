@@ -1,4 +1,4 @@
-# Java_SampleCode6
+# JavaSampleCode6
 while文
 
 <dl>処理
