@@ -1,4 +1,4 @@
-# JavaSampleCode6
+# JavaWhileStatement
 while文
 
 <dl>処理
@@ -8,7 +8,32 @@ while文
   <dd>１～５の数字を降順に「**だよ。」と出力する。</dd>
 </dl>
 
-#### 出力結果
+## コード
+```
+public class sample6 {
+
+	public static void main(String[] args) {
+		System.out.println("** ケース１ **");
+		int i = 1;
+		while (i <= 5) {
+			System.out.println(i + "だよ。");
+			i += 1;
+		}
+		System.out.println("");
+
+		System.out.println("** ケース２ **");
+		int j = 5;
+		while (j > 0) {
+			System.out.println(j + "だよ。");
+			j -= 1;
+		}
+	}
+
+}
+```
+
+## 出力結果
+```
 ** ケース１ **  
 1だよ。  
 2だよ。  
@@ -22,8 +47,10 @@ while文
 3だよ。  
 2だよ。  
 1だよ。  
-  
-| 開発環境 |  |
+```
+
+## 開発環境
+| 開発ツール |  |
 |:-|:-|
-| 統合開発環境(IDE)： | Eclipse 4.7.0 Oxygen |
-| 開発言語： | Java8 |
+| 統合開発環境(IDE) | Eclipse 4.7.0 Oxygen |
+| 開発言語 | Java8 |
